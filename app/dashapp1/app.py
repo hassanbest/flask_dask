@@ -95,8 +95,8 @@ def create_dash_app(name, flask_app_obj, url_base_path, assets_path,  meta_tags)
     global obj_dc, date_ranges, stock_layout
 
     app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP,
-                                                    'https://gitcdn.link/repo/hassanbest/css_dumps/master/base.css',
-                                                    'https://min.gitcdn.link/repo/hassanbest/css_dumps/master/base2.css',
+                                                    'https://rawcdn.githack.com/hassanbest/css_dumps/e1fc715e418753c49b6ee06afe4bdfed0d1f4f94/base.css',
+                                                    'https://rawcdn.githack.com/hassanbest/css_dumps/e1fc715e418753c49b6ee06afe4bdfed0d1f4f94/base2.css',
                                                     ],
                     server=flask_app_obj,
                     url_base_pathname=url_base_path,
